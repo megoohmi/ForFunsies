@@ -1,50 +1,16 @@
 public class App {
     public static void main(String[] args) {
+        
+    Gear Boots = new Gear();
 
-        Character knight = new Character();
+    Boots.name = "Meg's baby";
+    Boots.defense = 10;
+    Boots.weight = 4.5f;
+    Boots.description = "Truly amazing, can step on you, one of a kind, spectacular, show-stopping, and powerful";
+    Boots.rarity = "Legendary";
+    Boots.hasElementalResistance = true;
+    Boots.showGearDescription();
+    Boots.sayMyDefense ();
 
-        knight.strength = 10;
-        knight.agility = 5;
-        knight.intelligence = 0;
-        knight.name = "Chen";
-        knight.sayMyName();
-        knight.sayMyStrength();
-        knight.sayMyAgility();
-        knight.sayMyIntelligence();
-
-        Character mage = new Character();
-
-        mage.strength = 0;
-        mage.agility = 5;
-        mage.intelligence = 10;
-        mage.name = "Akasha";
-        mage.sayMyName();
-        mage.sayMyStrength();
-        mage.sayMyAgility();
-        mage.sayMyIntelligence();
-
-        Character thief = new Character();
-
-        thief.strength = 5;
-        thief.agility = 10;
-        thief.intelligence = 0;
-        thief.name = "Gondar";
-        thief.sayMyName();
-        thief.sayMyStrength();
-        thief.sayMyAgility();
-        thief.sayMyIntelligence();
-
-        Character archer = new Character();
-
-        archer.strength = 5;
-        archer.agility = 5;
-        archer.intelligence = 5;
-        archer.name = "Jiu";
-        archer.sayMyName();
-        archer.sayMyStrength();
-        archer.sayMyAgility();
-        archer.sayMyIntelligence();
-
-        // Character healer = new Character(8,8,8,"Janna");
     }
 }
