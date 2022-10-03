@@ -1,1 +1,17 @@
+public class App {
+    public static void main(String[] args) throws Exception {
 
+        int nameCount = 5;
+        while(nameCount !=0){
+            
+            nameCount --;
+            if (nameCount == 3) {
+                System.out.println("Go awei");
+                continue;
+            }
+
+            System.out.println("Meg");
+        }
+
+    }
+}
